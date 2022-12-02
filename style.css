@@ -28,3 +28,18 @@ h1 { font-size: 5em; }
     text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
   }
 }
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+</style>
+
+<div class="container">
+  <div class="vertical-center">
+    <p>I am vertically centered.</p>
+  </div>
+</div>
