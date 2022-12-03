@@ -37,9 +37,3 @@ h1 { font-size: 5em; }
   transform: translateY(-50%);
 }
 </style>
-
-<div class="container">
-  <div class="vertical-center">
-    <p>I am vertically centered.</p>
-  </div>
-</div>
