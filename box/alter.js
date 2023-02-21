@@ -6,6 +6,5 @@ function changeText()
     var diff = (now - start) + ((start.getTimezoneOffset() - now.getTimezoneOffset()) * 60 * 1000);
     var oneDay = 1000 * 60 * 60 * 24;
     var day = Math.floor(diff / oneDay);
-    Math.ceil((today - new Date(today.getFullYear(),0,1)) / 86400000);
-    heading.textContent = items('Day of year: ' + day);
+    heading.textContent = items[day]
 }
